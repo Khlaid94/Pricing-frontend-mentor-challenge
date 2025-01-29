@@ -1,0 +1,126 @@
+
+/* in this part of the css code we write the overall main code of the page */
+html{
+    box-sizing: border-box;
+    font-family: "Karla", serif;
+    font-size: 16px;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+
+/* Body */
+
+body{
+    padding: 140px;
+}
+
+/* Main container that contains everything in the page */
+
+.container{
+    width: 750px;
+    height: 500px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* First top section of the container */
+
+.top_card{
+    width: 100%;
+    height: 45%;
+    padding: 20px;
+    padding-left: 60px;
+}
+.top_card > h2{
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 20px;
+}
+.top_card > h3{
+    color: hsl(71, 73%, 54%);
+}
+.top_card > p{
+    color: rgba(152, 166, 189, 0.7);
+    padding-bottom: 8px;
+    margin: 0px;
+}
+
+/* The bottom part of the container */
+
+.bottom_card{
+    background-color: hsl(179, 62%, 43%);
+    height: 55%;
+    width: 100%;
+    display: flex;
+}
+
+.left_card{
+    width: 50%;
+    height: 100%;
+    color: white;
+    padding: 20px;
+    padding-left: 60px;
+    padding-top: 30px;
+
+}
+
+.right_card{
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, .2);
+    color: white;
+    padding: 20px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.left_card h4{
+    margin-bottom: 15px;
+}
+.right_card > ul{
+    color: rgba(229, 239, 245, 0.6);
+    padding: 0;
+    list-style: none;
+}
+.left_card p{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: rgba(229, 239, 245, 0.9);
+}
+button{
+    background-color: hsl(71, 73%, 54%);
+    color: rgba(229, 239, 245, 8);
+    border: none;
+    width: 85%;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+button:hover{
+    cursor: pointer;
+    background-color:  hsl(71, 86%, 39%);
+    transform: scale(1.05);
+}
+.price_container{
+    display: flex;
+    text-align: center;
+}
+.price_container > .price{
+    font-size: 2rem;
+    color: white;
+    font-weight: 700;
+    font-size: 1.9rem;
+    text-align: center;
+    padding-right: 15px;
+}
+.price_container > .price_frequency{
+    color: rgba(229, 239, 245, 0.6);
+    text-align: center;
+    padding-top: 8px;
+}
+
+
